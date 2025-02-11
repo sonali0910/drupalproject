@@ -1,0 +1,4 @@
+services:
+  home_page_components.exception_handler:
+    class: Drupal\home_page_components\Service\ExceptionHandlerService
+    arguments: ['@entity_type.manager', '@logger.factory']

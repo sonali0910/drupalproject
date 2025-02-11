@@ -1,0 +1,8 @@
+name: 'Home Page Components'
+type: module
+description: 'Exposes REST APIs for home page components.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:rest
+  - drupal:serialization

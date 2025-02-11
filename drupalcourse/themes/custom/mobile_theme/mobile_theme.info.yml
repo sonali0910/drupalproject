@@ -1,0 +1,10 @@
+name: 'Mobile Custom Theme'
+type: theme
+description: 'A custom theme with React integration.'
+core_version_requirement: '^10'
+base theme: false
+libraries:
+  - mobile_theme/react_app
+regions:
+  content: 'Content'
+  sidebar: 'Sidebar'

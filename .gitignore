@@ -1,0 +1,56 @@
+ # Ignore core and contributed modules/themes
+/core/
+/modules/contrib/
+/themes/contrib/
+
+# Ignore vendor directory
+/vendor/
+
+# Ignore files directory
+/sites/default/files/
+
+# Ignore environment-specific settings
+/sites/default/settings.local.php
+
+# Ignore cache and temporary files
+/sites/default/files/php/
+/sites/default/files/styles/
+
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore Drush backup directories
+/drush-backups/
+
+# Ignore Drupal's temporary files
+/tmp/
+
+# Ignore IDE and OS-specific files
+*.idea
+*.DS_Store
+*.vscode
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+
+# Ignore compiled files
+*.log
+*.cache
+*.compiled
+
+# Ignore node_modules if using Node.js for front-end assets
+/node_modules/
+
+# Ignore build artifacts
+/build/
+
+# Ignore PHPUnit test results
+/phpunit.xml
+/phpunit.xml.dist
+/test-results/
+
+# Ignore any custom logs
+*.log
+
+# Ignore any other sensitive files
+*.env
