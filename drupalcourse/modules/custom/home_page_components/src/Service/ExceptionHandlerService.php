@@ -38,7 +38,6 @@ class ExceptionHandlerService {
    */
   public function __construct(EntityTypeManagerInterface $entity_type_manager, LoggerChannelFactoryInterface $logger_factory) {
     $this->entityTypeManager = $entity_type_manager;
-    // Get the specific logger channel for your module.
     $this->logger = $logger_factory->get('home_page_components');
   }
 
@@ -71,7 +70,6 @@ class ExceptionHandlerService {
 
       $carouselData = [];
       foreach ($carouselNodes as $node) {
-        // Get static and dynamic content for carousel mobile model text
       if ($node && $node->hasField('field_mobile_model')) {
         $mobile_model = $node->get('field_mobile_model')->value;
       }
